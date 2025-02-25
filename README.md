@@ -1,19 +1,29 @@
 # gmarcos-dev
+**Portifólio**
 
-## Project setup
-```
-yarn install
-```
+- **Home**: lorem.
+- **About**: lorem.
+- **Projects**: lorem.
+- **Certificates**: lorem.
+- **Contact**: lorem.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## Tecnologias Utilizadas
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- **VueJS 3.0**: Framework principal.
+- **Vuetify 3.0**: Biblioteca UX.
+
+
+## Requisitos do Projeto
+
+- Vue: @vue/cli 5.0.8
+- Node: v18.20.5
+- Yarn: 1.22.22
+
+
+## Autor
+Desenvolvido por [Marcos Guimarães Rocha](https://www.linkedin.com/in/marcos-grocha/).
+
+![image](https://github.com/user-attachments/assets/4e1d519b-caff-4cdf-9d63-8c75a234c0e8)
+
+
