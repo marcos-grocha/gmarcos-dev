@@ -1,5 +1,5 @@
 <template>
-  <v-container class="hello">
+  <v-container>
     <v-row justify="center">
       <v-col cols="12" md="8">
         <v-card elevation="4" class="pa-4">
@@ -12,33 +12,7 @@
           </v-card-subtitle>
 
           <v-card-text>
-            <!-- Meus Links -->
-            <h3 class="text-h5 mt-6 mb-2">Meus Links</h3>
-            <v-list>
-              <v-list-item>
-                <v-btn
-                  href="https://github.com/marcos-grocha"
-                  target="_blank"
-                  rel="noopener"
-                  color="primary"
-                  variant="text"
-                >
-                  GitHub
-                </v-btn>
-              </v-list-item>
-              <v-list-item>
-                <v-btn
-                  href="https://www.linkedin.com/in/marcos-grocha/"
-                  target="_blank"
-                  rel="noopener"
-                  color="primary"
-                  variant="text"
-                >
-                  LinkedIn
-                </v-btn>
-              </v-list-item>
-            </v-list>
-
+            gmarcos.dev@gmail.com | (79) 99963-0944
           </v-card-text>
         </v-card>
       </v-col>
@@ -54,9 +28,3 @@
     }
   }
 </script>
-
-<style scoped>
-  .text-h5 {
-    font-weight: 500;
-  }
-</style>
