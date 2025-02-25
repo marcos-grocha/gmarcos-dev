@@ -1,33 +1,39 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
-    <router-link to="/projects">Projects</router-link> |
-    <router-link to="/certificates">Certificates</router-link> |
-    <router-link to="/contact">Contact</router-link>
-  </nav>
-  <router-view/>
+  <v-app>
+    <v-container>
+      <v-row>
+        <v-col>
+            <v-toolbar flat>
+                <v-toolbar-title>gmarcos-dev</v-toolbar-title>
+                <v-spacer></v-spacer>
+                <nav>
+                  <v-btn color="#978872" variant="text" to="/">Home</v-btn> |
+                  <v-btn color="#978872" variant="text" to="/about">About</v-btn> |
+                  <v-btn color="#978872" variant="text" to="/projects">Projects</v-btn> |
+                  <v-btn color="#978872" variant="text" to="/certificates">Certificates</v-btn> |
+                  <v-btn color="#978872" variant="text" to="/contact">Contact</v-btn>
+                </nav>
+            </v-toolbar>
+        </v-col>
+      </v-row>
+    </v-container>
+    
+    <router-view/>
+  </v-app>
 </template>
 
+<script>
+  export default {
+    name: 'App',
+
+    data: () => ({
+      //
+    }),
+  }
+</script>
+
 <style>
-  #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-  }
-
   nav {
-    padding: 30px;
-  }
-
-  nav a {
-    font-weight: bold;
-    color: #2c3e50;
-  }
-
-  nav a.router-link-exact-active {
-    color: #42b983;
+  padding: 30px;
   }
 </style>

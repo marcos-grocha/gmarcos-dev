@@ -1,20 +1,37 @@
 <template>
-  <div class="home">
-    <img alt="Marcos" src="../assets/gmarcos.png" class="circular-image">
-    <HelloWorld msg="Boas Vindas!"/>
-  </div>
+  <v-container class="home">
+    <v-row align="center" justify="center">
+      <!-- Coluna para a imagem -->
+      <v-col cols="12" sm="4" md="3" class="text-center">
+        <img alt="Marcos" :src="gmarcos" class="circular-image">
+      </v-col>
+      <!-- Coluna para o conteúdo do Profile -->
+      <v-col cols="12" sm="8" md="9">
+        <Profile msg="Boas Vindas!" />
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>
-  // @ is an alias to /src
-  import HelloWorld from '@/components/HelloWorld.vue'
+  import { defineComponent } from 'vue';
 
-  export default {
+  // Components
+  import Profile from '../components/Profile.vue';
+  import gmarcosImage from '../assets/gmarcos.png'; // Importa a imagem
+
+  export default defineComponent({
     name: 'HomeView',
+
     components: {
-      HelloWorld
-    }
-  }
+      Profile,
+    },
+    data() {
+      return {
+        gmarcos: gmarcosImage, // Disponibiliza a imagem no template
+      };
+    },
+  });
 </script>
 
 <style>
