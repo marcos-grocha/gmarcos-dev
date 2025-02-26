@@ -8,12 +8,16 @@
           </v-card-title>
           
           <v-card-subtitle class="text-h6 mt-2">
-            Marcos Araujo Goulart
+            MARCOS GUIMARÃES ROCHA
           </v-card-subtitle>
-
           <v-card-text>
-            gmarcos.dev@gmail.com | (79) 99963-0944
+            Brasileiro, 27 anos <br>
+            Aracaju – SE <br>
+            (79) 99963-0944 <br>
+            gmarcos.dev@gmail.com
           </v-card-text>
+
+          <v-btn color="#978872" variant="text" to="/curriculo">Curriculo</v-btn>
         </v-card>
       </v-col>
     </v-row>

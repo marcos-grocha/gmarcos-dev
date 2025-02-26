@@ -1,13 +1,13 @@
 <template>
   <v-container class="home">
     <v-row align="center" justify="center">
-      <!-- Coluna para a imagem -->
-      <v-col cols="12" sm="4" md="3" class="text-center">
-        <img alt="Marcos" :src="gmarcos" class="circular-image">
-      </v-col>
       <!-- Coluna para o conteúdo do Profile -->
       <v-col cols="12" sm="8" md="9">
         <Profile msg="Boas Vindas!" />
+      </v-col>
+      <!-- Coluna para a imagem -->
+      <v-col cols="12" sm="4" md="3" class="text-center">
+        <img alt="Marcos" :src="gmarcos" class="circular-image">
       </v-col>
     </v-row>
   </v-container>

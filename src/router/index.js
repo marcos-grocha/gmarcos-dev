@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import ProjectsView from '@/views/ProjectsView.vue'
 import ContactView from '@/views/ContactView.vue'
 import CertificatesView from '@/views/CertificatesView.vue'
+import CurriculoView from '@/views/CurriculoView.vue'
 
 const routes = [
   {
@@ -29,6 +30,11 @@ const routes = [
     path: '/certificates',
     name: 'certificates',
     component: CertificatesView
+  },
+  {
+    path: '/curriculo',
+    name: 'Curriculo',
+    component: CurriculoView
   }
 ]
 
