@@ -1,10 +1,10 @@
 # gmarcos-dev
 **Portifólio**
 - **Home**: lorem.
-- **About**: lorem.
+-- **About**: lorem.
+-- **Curriculum**: lorem.
 - **Projects**: lorem.
 - **Certificates**: lorem.
-- **Contact**: lorem.
 
 ## Tecnologias
 - **VueJS 3.0**: Framework principal.
