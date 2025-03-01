@@ -2,7 +2,7 @@
   <v-container class="home">
     <v-row align="center" justify="center">
       <v-col cols="12" sm="8" md="9">
-        <Profile msg="Boas Vindas! Esse é o meu Portifólio." />
+        <Profile msg="Esse é o meu Portifólio, Boas Vindas!" />
       </v-col>
     </v-row>
   </v-container>

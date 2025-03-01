@@ -10,13 +10,12 @@
             MARCOS GUIMARÃES ROCHA
           </v-card-subtitle>
           <v-card-text>
-            Brasileiro, 27 anos <br>
-            Aracaju – SE <br>
-            (79) 99963-0944 <br>
-            gmarcos.dev@gmail.com
+            Software Developer especialista em Ruby on Rails, construindo soluções web através de Desenvolvimento Orientado a Testes (Test Driven Development) e práticas ágeis, garantindo a qualidade do código.
+            <br><br>
+            Tenho boa familiaridade com Java Spring e, apesar da minha especialização, sou um profissional ávido por conhecimento, determinado, autodidata, adaptável e organizado. Apaixonado pelo processo de aprendizagem em novas tecnologias e motivado a buscar excelência em minhas soluções.
           </v-card-text>
-          <v-btn color="#978872" variant="text" to="/about">About</v-btn> |
-          <v-btn color="#978872" variant="text" to="/curriculo">Curriculum</v-btn>
+          <v-btn color="#978872" variant="text" to="/projects">Projects</v-btn> |
+          <v-btn color="#978872" variant="text" to="/curriculo">Curriculum Vitae</v-btn>
         </v-col>
 
         <v-col cols="12" sm="4" md="3" class="text-center">

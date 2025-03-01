@@ -6,6 +6,12 @@
           <v-card-title class="text-h4">
             MARCOS GUIMARÃES ROCHA
           </v-card-title>
+          <v-card-text class="text-overline">
+            Brasileiro, 27 anos <br>
+            Aracaju – SE <br>
+            (79) 99963-0944
+            <p class="text-body-1">gmarcos.dev@gmail.com</p>
+          </v-card-text>
 
           <v-card-subtitle class="text-h6 mt-2">
             OBJETIVO PROFISSIONAL
@@ -32,7 +38,7 @@
             ● Desenvolvimento de um Aplicativo WEB com Ruby on Rails em uma equipe de seis
             desenvolvedores. <br>
             ● Utilização de Scrum, Pair Programming e TDD (Test Driven Development) para garantir
-            a qualidade do código (98% de cobertura). <br>
+            a qualidade do código (97,7% de cobertura). <br>
             <br> <br>
             <b>RESIDÊNCIA DE SOFTWARE II - ARACAJU/SE</b> <br>
             - Desenvolvedor Backend - 02/2024 – 06/2024 <br>
