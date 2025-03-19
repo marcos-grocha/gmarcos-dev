@@ -2,7 +2,7 @@ export const projects = [
     {
       id: 1,
       title: "E-Ventos",
-      description: "Este é um sistema completo de gerenciamento de eventos, permitindo que organizadores criem e gerenciem eventos de forma eficiente. O aplicativo suporta a criação de contas de organizadores, cadastro de eventos, configuração de ingressos e agendas, além da verificação de usuários. Administradores têm acesso a ferramentas para moderar usuários, gerenciar categorias de eventos e configurar palavras-chave para facilitar buscas. O sistema também controla limites de participantes e lotes de ingressos, com diferentes opções e preços.",
+      description: "Este é um sistema completo de gerenciamento de eventos, permitindo que organizadores criem e gerenciem eventos de forma eficiente.",
       image: "/images/projects/e-ventos.png",
       repository: "https://github.com/TreinaDev/events-app",
       demo: "https://project-name.gmarcos.dev",
@@ -21,7 +21,7 @@ export const projects = [
       id: 3,
       title: "Censo Galático 🌌",
       description: "O universo de Star Wars é composto de uma galáxia com inúmeros planetas e espécies, nesta aplicação podemos buscar esses dados através de consultas em APIs externas.",
-      image: "/images/projects/censo-galactico.png",
+      image: "/images/projects/censo-galatico.png",
       repository: "https://github.com/marcos-grocha/censo-galatico",
       demo: "https://marcos-grocha.github.io/censo-galatico/",
       technologies: ["JavaScript", "CSS", "HTML"]
@@ -44,40 +44,49 @@ export const projects = [
       demo: "https://marcos-grocha.github.io/paleva-cozinha-vuejs/",
       technologies: ["Vue.js", "CSS 3", "HTML 5"]
     },
-    {
-      id: 6,
-      title: "Warehouse - FrontEnd",
-      description: "App Frontend feito para complementar o Projeto Backend que gerencia galpões. Os apps conversam via API",
-      image: "/images/projects/warehouse-vuejs.png",
-      repository: "https://github.com/marcos-grocha/warehouse-vuejs",
-      demo: "https://project-name.gmarcos.dev",
-      technologies: ["Tec 1", "Tec 2", "Tec 3"]
-    },
-    {
-      id: 97,
-      title: "Título",
-      description: "Descrição",
-      image: "/images/projects/print-name.jpg",
-      repository: "https://github.com/marcos-grocha/projeto-name",
-      demo: "https://project-name.gmarcos.dev",
-      technologies: ["Tec 1", "Tec 2", "Tec 3"]
-    },
-    {
-      id: 98,
-      title: "Título",
-      description: "Descrição",
-      image: "/images/projects/print-name.jpg",
-      repository: "https://github.com/marcos-grocha/projeto-name",
-      demo: "https://project-name.gmarcos.dev",
-      technologies: ["Tec 1", "Tec 2", "Tec 3"]
-    },
-    {
-      id: 99,
-      title: "Título",
-      description: "Descrição",
-      image: "/images/projects/print-name.jpg",
-      repository: "https://github.com/marcos-grocha/projeto-name",
-      demo: "https://project-name.gmarcos.dev",
-      technologies: ["Tec 1", "Tec 2", "Tec 3"]
-    }
+    // {
+    //   id: 6,
+    //   title: "Warehouse - FrontEnd",
+    //   description: "Sistema que consome a API do Warehouse-App, trazendo as informações com um visual mais agradável",
+    //   image: "/images/projects/warehouse-vuejs.png",
+    //   repository: "https://github.com/marcos-grocha/warehouse-vuejs",
+    //   demo: "https://project-name.gmarcos.dev",
+    //   technologies: ["VueJS 2.0", "Vuetify  ", "HTML", "CSS"]
+    // },
+    // {
+    //   id: 7,
+    //   title: "Warehouse-APP",
+    //   description: "Aplicação desenvolvida para facilitar o gerenciamento de galpões. Expôe API com os dados necessários para outros sistemas.",
+    //   image: "/images/projects/print-name.jpg",
+    //   repository: "https://github.com/marcos-grocha/warehouse-app",
+    //   demo: "https://project-name.gmarcos.dev",
+    //   technologies: ["Ruby on Rails", "RSpec e Capybara", "TDD"]
+    // },
+    // {
+    //   id: 8,
+    //   title: "MarcosgrochaComputers",
+    //   description: "Site de vendas de computadores, acessórcios e periféricos",
+    //   image: "/images/projects/computers.png",
+    //   repository: "https://github.com/marcos-grocha/marcosgrocha-computers",
+    //   demo: "https://marcos-grocha.github.io/marcosgrocha-computers/",
+    //   technologies: ["Angular", "Material", "TypeScript"]
+    // },
+    // {
+    //   id: 9,
+    //   title: "Movie Manager",
+    //   description: "Catálogo de Filmes",
+    //   image: "/images/projects/print-name.jpg",
+    //   repository: "https://github.com/marcos-grocha/movie-manager",
+    //   demo: "https://project-name.gmarcos.dev",
+    //   technologies: ["Ruby on Rails", "MVC"]
+    // },
+    // {
+    //   id: 99,
+    //   title: "Título",
+    //   description: "Descrição",
+    //   image: "/images/projects/print-name.jpg",
+    //   repository: "https://github.com/marcos-grocha/projeto-name",
+    //   demo: "https://project-name.gmarcos.dev",
+    //   technologies: ["Tec 1", "Tec 2", "Tec 3"]
+    // }
   ];
