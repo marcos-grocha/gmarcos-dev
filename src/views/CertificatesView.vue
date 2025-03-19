@@ -52,7 +52,7 @@
               >
             </v-expansion-panel>
             <br>
-            <p class="text-caption">Chave de acesso: disponível em breve</p>
+            <p class="text-caption">Chave de acesso: 51N4XfxZafGZh8eVigMEuetN</p>
           </v-expansion-panels>
         
           <v-divider :thickness="20" class="border-opacity-0"></v-divider>
