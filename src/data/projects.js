@@ -5,7 +5,7 @@ export const projects = [
       description: "Este é um sistema completo de gerenciamento de eventos, permitindo que organizadores criem e gerenciem eventos de forma eficiente.",
       image: "/images/projects/e-ventos.png",
       repository: "https://github.com/TreinaDev/events-app",
-      demo: "https://project-name.gmarcos.dev",
+      demo: "https://404.gmarcos.dev",
       technologies: ["Ruby on Rails", "TailwindCSS", "Node", "RSpec"]
     },
     {
@@ -32,7 +32,7 @@ export const projects = [
       description: "Uma aplicação desenvolvida em Ruby on Rails para facilitar o gerenciamento de restaurantes. A plataforma permite que proprietários de estabelecimentos organizem seus menus, pratos, bebidas e pedidos, tudo em um único lugar.",
       image: "/images/projects/paleva.png",
       repository: "https://github.com/marcos-grocha/paleva-app",
-      demo: "https://project-name.gmarcos.dev",
+      demo: "https://404.gmarcos.dev",
       technologies: ["Ruby on Rails", "Bootstrap 5", "RSpec e Capybara"]
     },
     {
@@ -50,7 +50,7 @@ export const projects = [
     //   description: "Sistema que consome a API do Warehouse-App, trazendo as informações com um visual mais agradável",
     //   image: "/images/projects/warehouse-vuejs.png",
     //   repository: "https://github.com/marcos-grocha/warehouse-vuejs",
-    //   demo: "https://project-name.gmarcos.dev",
+    //   demo: "https://404.gmarcos.dev",
     //   technologies: ["VueJS 2.0", "Vuetify  ", "HTML", "CSS"]
     // },
     // {
@@ -59,7 +59,7 @@ export const projects = [
     //   description: "Aplicação desenvolvida para facilitar o gerenciamento de galpões. Expôe API com os dados necessários para outros sistemas.",
     //   image: "/images/projects/print-name.jpg",
     //   repository: "https://github.com/marcos-grocha/warehouse-app",
-    //   demo: "https://project-name.gmarcos.dev",
+    //   demo: "https://404.gmarcos.dev",
     //   technologies: ["Ruby on Rails", "RSpec e Capybara", "TDD"]
     // },
     // {
@@ -77,7 +77,7 @@ export const projects = [
     //   description: "Catálogo de Filmes",
     //   image: "/images/projects/print-name.jpg",
     //   repository: "https://github.com/marcos-grocha/movie-manager",
-    //   demo: "https://project-name.gmarcos.dev",
+    //   demo: "https://404.gmarcos.dev",
     //   technologies: ["Ruby on Rails", "MVC"]
     // },
     // {
@@ -86,7 +86,7 @@ export const projects = [
     //   description: "Descrição",
     //   image: "/images/projects/print-name.jpg",
     //   repository: "https://github.com/marcos-grocha/projeto-name",
-    //   demo: "https://project-name.gmarcos.dev",
+    //   demo: "https://404.gmarcos.dev",
     //   technologies: ["Tec 1", "Tec 2", "Tec 3"]
     // }
   ];

@@ -59,8 +59,9 @@
               v-if="project.demo"
               color="primary"
               variant="text"
-              :href="project.demo"
+              :href="isFakeDemoLink(project.demo) ? undefined : project.demo"
               target="_blank"
+              :disabled="!project.demo || isFakeDemoLink(project.demo)"
             >
               Demo
             </v-btn>
@@ -96,6 +97,11 @@
       return {
         projects: projects,
       };
+    },
+    methods: {
+      isFakeDemoLink(link) {
+        return link === 'https://404.gmarcos.dev';
+      }
     },
   });
 </script>
