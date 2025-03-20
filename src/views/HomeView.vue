@@ -2,7 +2,7 @@
   <v-container class="home">
     <v-row align="center" justify="center">
       <v-col cols="12" sm="12" md="12">
-        <Profile msg="Boas-Vindas !" />
+        <Profile />
       </v-col>
     </v-row>
   </v-container>
@@ -70,7 +70,7 @@
               :href="project.repository"
               target="_blank"
             >
-              GitHub
+              Código
             </v-btn>
           </v-card-actions>
         </v-card>

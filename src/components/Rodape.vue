@@ -2,7 +2,7 @@
   <v-container>
     <v-row justify="center">
       <v-col cols="6" md="4">
-        <h3 class="text-h5 mt-6 mb-2">Fale comigo</h3>
+        <h3 class="text-h5 mt-6 mb-2">Contato</h3>
         <v-list>
           <v-list-item>
             <v-btn
@@ -12,7 +12,7 @@
               color="primary"
               variant="text"
             >
-              Através do email
+              Via email
             </v-btn>
           </v-list-item>
           <v-list-item>
@@ -23,14 +23,14 @@
               color="primary"
               variant="text"
             >
-              Através do WhatsApp
+              Via WhatsApp
             </v-btn>
           </v-list-item>
         </v-list>
       </v-col>
 
       <v-col cols="6" md="4">
-        <h3 class="text-h5 mt-6 mb-2">Vamos nos conectar!</h3>
+        <h3 class="text-h5 mt-6 mb-2">Conexão</h3>
         <v-list>
           <v-list-item>
             <v-btn
