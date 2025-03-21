@@ -1,9 +1,8 @@
 # gmarcos-dev
-- **Home**: Introdução ao Portfólio.
-  - **About**: Sobre mim.
-  - **Curriculum**: Currículo completo (CV).
-- **Projects**: Exposição de projetos (em construção).
-- **Certificates**: Comprovantes de Graduação e Especialização.
+- **DEV**: LandingPage exibindo Perfil e Projetos.
+  - **Certificates**: Comprovantes de Graduações e Especializações.
+  - **Entre em contato**: Email, Telefone e Localização.
+- **CV**: Curriculum Vitae.
 
 ## Tecnologias
 - **VueJS 3.0**: Framework principal.
@@ -17,7 +16,9 @@
 ## Autor
 Desenvolvido por [Marcos Guimarães Rocha](https://www.linkedin.com/in/marcos-grocha/).
 
+![gmarcos-dev.surge.sh](https://github.com/user-attachments/assets/b4601f42-5147-429b-b7e3-e81cb2aa5453)
+
 <!-- Deploy via [Surge](https://surge.sh/) -->
-![image](https://github.com/user-attachments/assets/d66d2317-9de8-4c1c-bb33-0c82834b2a4f)
+<!-- ![image](https://github.com/user-attachments/assets/d66d2317-9de8-4c1c-bb33-0c82834b2a4f) -->
 
 <!-- ![image](https://github.com/user-attachments/assets/4e1d519b-caff-4cdf-9d63-8c75a234c0e8) -->
