@@ -21,7 +21,7 @@
                 ></v-icon>
               </template>
               <v-banner-text>
-                <div ref="titleEl" class="text-h5 font-weight-bold"></div>
+                <div ref="titleEl" class="text-body-1 font-weight-bold"></div>
               </v-banner-text>
             </v-banner>
             
@@ -198,6 +198,7 @@
   const titles = [
     'Solucionador de Problemas',
     'Pedreiro de Software',
+    'Dev Café e Código',
     'Especialista Ruby on Rails',
     'Entusiasta TDD'
   ];
