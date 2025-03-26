@@ -26,18 +26,10 @@
             </v-banner>
             
             <v-card-subtitle class="text-h6 d-flex align-center flex-wrap">
-              <v-icon icon="mdi-account-tie" class="mr-2"></v-icon>
-              <span>MARCOS GUIMARÃES</span> 
               <v-spacer></v-spacer>
-              <v-btn
-                color="#978872"
-                variant="tonal"
-                to="/certificates"
-                prepend-icon="mdi-certificate"
-                class="ml-2"
-              >
-                Certificates
-              </v-btn>
+              <v-icon icon="mdi-account-tie" class="mr-2"></v-icon>
+              <span>MARCOS GUIMARÃES</span>
+              <v-spacer></v-spacer>
             </v-card-subtitle>
           </div>
           
@@ -215,10 +207,11 @@
   // Dados de habilidades
   const skills = ref([
     { name: 'Ruby on Rails', level: 97, color: 'error' },
-    { name: 'Java Spring', level: 80, color: 'success' },
+    { name: 'Java Spring', level: 76, color: 'success' },
     { name: 'TDD', level: 91, color: 'info' },
-    { name: 'Vue.js', level: 75, color: 'success' },
-    { name: 'Scrum', level: 86, color: 'warning' }
+    { name: 'Vue.js', level: 88, color: 'success' },
+    { name: 'Scrum', level: 86, color: 'warning' },
+    { name: 'Git e GitHub', level: 95, color: 'warning' }
   ]);
 
   // Ícones de tecnologias Ruby
