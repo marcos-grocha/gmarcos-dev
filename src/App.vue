@@ -146,23 +146,7 @@
   }
 
   /* ===== TEMA ESCURO ===== */
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --color-text-primary: #f5f4f2;
-      --color-text-secondary: #c4b59e;
-      --color-text-muted: #a69485;
-      
-      --color-bg-primary: #1a1816;
-      --color-bg-secondary: #242220;
-      --color-bg-tertiary: #2d2926;
-      
-      /* Transparências ajustadas para fundo escuro */
-      --color-primary-alpha-10: rgba(196, 181, 158, 0.1);
-      --color-primary-alpha-15: rgba(196, 181, 158, 0.15);
-      --color-primary-alpha-20: rgba(196, 181, 158, 0.2);
-      --color-primary-alpha-30: rgba(196, 181, 158, 0.3);
-    }
-  }
+  /* ...em construção */
 
   /* ===== CLASSES UTILITÁRIAS ===== */
   .text-primary { color: var(--color-text-primary) !important; }
