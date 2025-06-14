@@ -10,6 +10,15 @@ export const projects = [
     },
     {
       id: 2,
+      title: "Lacen",
+      description: "Residência de Software I: Website do Laboratório Central do Estado de Sergipe (LACEN/SE).",
+      image: "/images/projects/lacen.png",
+      repository: "https://github.com/marcos-grocha/lacen",
+      demo: "https://gmarcos-lacen.netlify.app/",
+      technologies: ["Vue.js 3", "VLibras", "Vue Router 4"]
+    },
+    {
+      id: 3,
       title: "GameZone",
       description: "Landing Page de um site com tema: Jogos / Entretenimento. A plataforma conta com Jogos em Destaque, Notícias e Avaliações dos Usuários.",
       image: "/images/projects/gamezone.png",
@@ -18,7 +27,7 @@ export const projects = [
       technologies: ["JavaScript", "CSS", "HTML"]
     },
     {
-      id: 3,
+      id: 4,
       title: "Censo Galático 🌌",
       description: "O universo de Star Wars é composto de uma galáxia com inúmeros planetas e espécies, nesta aplicação podemos buscar esses dados através de consultas em APIs externas.",
       image: "/images/projects/censo-galatico.png",
@@ -27,7 +36,7 @@ export const projects = [
       technologies: ["JavaScript", "CSS", "HTML"]
     },
     {
-      id: 4,
+      id: 5,
       title: "Palevá - Estabelecimento",
       description: "Uma aplicação desenvolvida em Ruby on Rails para facilitar o gerenciamento de restaurantes. A plataforma permite que proprietários de estabelecimentos organizem seus menus, pratos, bebidas e pedidos, tudo em um único lugar.",
       image: "/images/projects/paleva.png",
@@ -36,7 +45,7 @@ export const projects = [
       technologies: ["Ruby on Rails", "Bootstrap 5", "RSpec e Capybara"]
     },
     {
-      id: 5,
+      id: 6,
       title: "Palevá - Cozinha",
       description: "Um sistema que gerencia de forma simples os pedidos de um PaLevá - Estabelecimento. A aplicação permite visualizar e controlar os pedidos em diferentes status, possibilita ao usuário aceitar, marcar como pronto ou cancelar um pedido, facilitando o fluxo de trabalho na cozinha.",
       image: "/images/projects/paleva-cozinha.png",
@@ -45,7 +54,7 @@ export const projects = [
       technologies: ["Vue.js", "CSS 3", "HTML 5"]
     },
     // {
-    //   id: 6,
+    //   id: 7,
     //   title: "Warehouse - FrontEnd",
     //   description: "Sistema que consome a API do Warehouse-App, trazendo as informações com um visual mais agradável",
     //   image: "/images/projects/warehouse-vuejs.png",
@@ -54,7 +63,7 @@ export const projects = [
     //   technologies: ["VueJS 2.0", "Vuetify  ", "HTML", "CSS"]
     // },
     // {
-    //   id: 7,
+    //   id: 8,
     //   title: "Warehouse-APP",
     //   description: "Aplicação desenvolvida para facilitar o gerenciamento de galpões. Expôe API com os dados necessários para outros sistemas.",
     //   image: "/images/projects/print-name.jpg",
@@ -63,7 +72,7 @@ export const projects = [
     //   technologies: ["Ruby on Rails", "RSpec e Capybara", "TDD"]
     // },
     // {
-    //   id: 8,
+    //   id: 9,
     //   title: "MarcosgrochaComputers",
     //   description: "Site de vendas de computadores, acessórcios e periféricos",
     //   image: "/images/projects/computers.png",
@@ -72,7 +81,7 @@ export const projects = [
     //   technologies: ["Angular", "Material", "TypeScript"]
     // },
     // {
-    //   id: 9,
+    //   id: 10,
     //   title: "Movie Manager",
     //   description: "Catálogo de Filmes",
     //   image: "/images/projects/print-name.jpg",
