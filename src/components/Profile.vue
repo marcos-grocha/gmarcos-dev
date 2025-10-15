@@ -94,7 +94,7 @@
                       <strong>Desenvolvimento Orientado a Testes (TDD)</strong> e <strong>práticas ágeis</strong>, garantindo a qualidade do código.
                     </p>
                     <p class="description-text">
-                      Tenho boa familiaridade com <strong>Java Spring</strong> e, apesar da minha especialização, sou um profissional 
+                      Tenho boa familiaridade com outras tecnologias como <strong>Java Spring</strong>, Container <strong>Docker</strong>, <strong>JavaScript</strong>... e, apesar da minha especialização, sou um profissional 
                       ávido por conhecimento, determinado, autodidata, adaptável e organizado. Apaixonado pelo processo de 
                       aprendizagem em novas tecnologias e motivado a buscar excelência em minhas soluções.
                     </p>
@@ -240,10 +240,12 @@
   // Dados de habilidades
   const skills = ref([
     { name: 'Ruby on Rails', level: 97 },
-    { name: 'Java Spring', level: 76 },
-    { name: 'TDD', level: 91 },
+    { name: 'Java Spring', level: 86 },
     { name: 'Vue.js', level: 88 },
-    { name: 'Scrum', level: 86 },
+    { name: 'Docker', level: 74},
+    { name: 'TDD', level: 93 },
+    { name: 'XP', level: 72 },
+    { name: 'Scrum', level: 91 },
     { name: 'Git e GitHub', level: 95 }
   ]);
 

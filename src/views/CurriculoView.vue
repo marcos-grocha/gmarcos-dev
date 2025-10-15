@@ -31,7 +31,7 @@
                   <div class="contact-icon">👤</div>
                   <div>
                     <div class="contact-label">Idade</div>
-                    <div class="contact-value">27 anos</div>
+                    <div class="contact-value">28 anos</div>
                   </div>
                 </div>
               </v-col>
@@ -66,8 +66,7 @@
               </h2>
               <div class="objective-card">
                 <p class="objective-text">
-                  Desenvolvedor Back-end com experiência em Ruby on Rails e Java Spring. Busco oportunidades para aplicar 
-                  minhas habilidades e contribuir com projetos inovadores, sempre disposto a aprender novas tecnologias.
+                  Desenvolvedor Back-end com experiência em Ruby on Rails, Java Spring, VueJS e Docker. Busco oportunidades para aplicar minhas habilidades e contribuir com projetos inovadores, sempre disposto a aprender novas tecnologias.
                 </p>
               </div>
             </div>
@@ -105,6 +104,22 @@
                   <div class="experience-marker current"></div>
                   <div class="experience-card">
                     <div class="experience-header">
+                      <h3 class="experience-company">BK Telecom - ARACAJU/SE</h3>
+                      <div class="experience-period">06/2025 – 10/2025</div>
+                    </div>
+                    <div class="experience-role">Desenvolvedor FullStack</div>
+                    <ul class="experience-list">
+                      <li>Desenvolvimento e manutenção de softwares internos.</li>
+                      <li>Utilização de Metodologias Ágeis e Boas Práticas para garantir a qualidade dos sistemas.</li>
+                      <li>Tecnologias: Vue.js 3, Java, Spring Boot e Docker como stack principal.</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="experience-item">
+                  <div class="experience-marker current"></div>
+                  <div class="experience-card">
+                    <div class="experience-header">
                       <h3 class="experience-company">CAMPUS CODE - REMOTO</h3>
                       <div class="experience-period">01/2025 – 02/2025</div>
                     </div>
@@ -120,7 +135,23 @@
                   <div class="experience-marker"></div>
                   <div class="experience-card">
                     <div class="experience-header">
-                      <h3 class="experience-company">RESIDÊNCIA DE SOFTWARE II - ARACAJU/SE</h3>
+                      <h3 class="experience-company">LACEN + UNIT (RS I) - ARACAJU/SE</h3>
+                      <div class="experience-period">02/2025 – 06/2025</div>
+                    </div>
+                    <div class="experience-role">Desenvolvedor Backend</div>
+                    <ul class="experience-list">
+                      <li>Desenvolvimento de Website Institucional para o Laboratório Central de Saúde Pública de Sergipe (LACEN/SE).</li>
+                      <li>Implementação de recursos de acessibilidade, incluindo VLibras e ajuste de tamanho de fonte, e modo escuro/claro seguindo boas práticas de inclusão digital.</li>
+                      <li>Tecnologias: Vue.js 3, Vue CLI 5, Yarn e Node.js como stack principal de front-end</li>
+                    </ul>
+                  </div>
+                </div>
+                
+                <div class="experience-item">
+                  <div class="experience-marker"></div>
+                  <div class="experience-card">
+                    <div class="experience-header">
+                      <h3 class="experience-company">FUNDARPE + UNIT (RS II) - ARACAJU/SE</h3>
                       <div class="experience-period">02/2024 – 06/2024</div>
                     </div>
                     <div class="experience-role">Desenvolvedor Backend</div>
@@ -175,6 +206,7 @@
                       <div class="skill-tags">
                         <span class="skill-tag backend">Ruby on Rails</span>
                         <span class="skill-tag backend">Java Spring Boot</span>
+                        <span class="skill-tag backend">Python Flask</span>
                       </div>
                     </div>
                     <div class="skill-category">
@@ -187,12 +219,26 @@
                       </div>
                     </div>
                     <div class="skill-category">
-                      <h4 class="skill-category-title">Ferramentas</h4>
+                      <h4 class="skill-category-title">Versionamento</h4>
                       <div class="skill-tags">
                         <span class="skill-tag tools">Git</span>
                         <span class="skill-tag tools">GitHub</span>
-                        <span class="skill-tag tools">Scrum</span>
-                        <span class="skill-tag tools">TDD</span>
+                        <span class="skill-tag tools">GitLab</span>
+                      </div>
+                    </div>
+                    <div class="skill-category">
+                      <h4 class="skill-category-title">Metodologia</h4>
+                      <div class="skill-tags">
+                        <span class="skill-tag backend">Scrum</span>
+                        <span class="skill-tag backend">XP</span>
+                        <span class="skill-tag backend">Pair Programming</span>
+                        <span class="skill-tag backend">TDD</span>
+                      </div>
+                    </div>
+                    <div class="skill-category">
+                      <h4 class="skill-category-title">Container</h4>
+                      <div class="skill-tags">
+                        <span class="skill-tag frontend">Docker</span>
                       </div>
                     </div>
                   </div>
